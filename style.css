@@ -1,8 +1,49 @@
 * {
 	font-family: "Roboto", sans-serif;
 }
+html {
+	font-size: 62.5%;
+}
 
 main {
 	max-width: 1200px;
 	margin: 0 auto;
+}
+
+.hero {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-auto-rows: 400px;
+}
+
+.hero .hero__img {
+	width: 80%;
+	height: 100%;
+	object-fit: contain;
+}
+
+.hero-description {
+	width: 70%;
+	margin: 0 auto;
+	padding-top: 50px;
+}
+
+.hero-description h1 {
+	font-size: 4rem;
+	font-weight: bold;
+}
+
+.hero-description p {
+	font-size: 1.3rem;
+	font-weight: 500;
+}
+
+.hero-description button {
+	width: 130px;
+	height: 28px;
+	margin-top: 20px;
+	color: white;
+	background-color: orange;
+	border: none;
+	border-radius: 10px;
 }
